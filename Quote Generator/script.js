@@ -1,7 +1,7 @@
 const api_url = "https://api.quotable.io/random";
 const quote = document.querySelector('.quote');
 const author = document.querySelector('.author');
-const button = document.querySelector(' .new-quote');
+const button = document.querySelector('.new-quote');
 const tweetBtn =document.querySelector('.tweet');
 
 async function getQuote (url)  {
